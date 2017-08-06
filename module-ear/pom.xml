@@ -30,6 +30,15 @@
          <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-ear-plugin</artifactId>
+            <configuration>
+               <modules>
+                  <webModule>
+                     <groupId>com.example</groupId>
+                     <artifactId>module-web</artifactId>
+                     <contextRoot>/custom-context-root</contextRoot>
+                  </webModule>
+               </modules>
+            </configuration>
          </plugin>
       </plugins>
    </build>
