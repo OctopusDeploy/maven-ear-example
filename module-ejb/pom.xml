@@ -20,6 +20,7 @@
    </dependencies>
 
    <build>
+      <finalName>${project.name}.${project.version}</finalName>
       <plugins>
          <plugin>
             <artifactId>maven-ejb-plugin</artifactId>

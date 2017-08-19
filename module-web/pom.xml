@@ -27,6 +27,7 @@
    </dependencies>
 
    <build>
+      <finalName>${project.name}.${project.version}</finalName>
       <plugins>
          <plugin>
             <artifactId>maven-war-plugin</artifactId>
