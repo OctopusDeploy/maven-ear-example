@@ -6,3 +6,8 @@ Building
 ```
 ./mvnw clean package
 ```
+
+Opening
+=======
+
+The web app responds to a GET request to `/custom-context-root/rest/members`
